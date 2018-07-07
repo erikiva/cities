@@ -1,5 +1,5 @@
 {
-  "name": "random-city",
+  "name": "random-city-from-list",
   "version": "1.0.0",
   "description": "Selects a random city",
   "main": "src/index.js",
