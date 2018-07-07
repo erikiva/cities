@@ -1,0 +1,26 @@
+{
+  "name": "random-city",
+  "version": "1.0.0",
+  "description": "Selects a random city",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erikiva/cities.git"
+  },
+  "keywords": [
+    "random",
+    "city"
+  ],
+  "author": "Natalia Vidal <nataliav@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/erikiva/cities/issues"
+  },
+  "homepage": "https://github.com/erikiva/cities#readme",
+  "dependencies": {
+    "unique-random-array": "1.0.1"
+  }
+}
