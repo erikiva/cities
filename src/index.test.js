@@ -24,5 +24,12 @@ describe('cities', function() {
       var randomCity = cities.random();
       expect(cities.all).to.deep.include(randomCity);
     });
+    it('should return an array of  random cities when passed a number', function() {
+      var randomCities = cities.random(3);
+      expect(randomCities).to.have.length(3);
+      randomCities.forEach(function(city) {
+        expect(cities.all).to.deep.include(city);
+      });
+    });
   });
 });
