@@ -1,5 +1,6 @@
-var uniqueRandomArray = require('unique-random-array');
-var cities = require('./cities.json');
+import uniqueRandomArray from 'unique-random-array';
+import cities from './cities.json';
+
 var getRandomCity = uniqueRandomArray(cities);
 
 module.exports = {
